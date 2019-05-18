@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:link,
+a:visited{
+    color: #5e5e5e;
+}
+body{
+    font-family: "微软雅黑";
+    color: #14191e;
+}
+.main{
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    width: 1200px;
+    height: 460px;
+}
+.sub-menu-small{
+    position: absolute;
+    top: 0px;
+    left: 244px;
+    padding: 20px;
+    width: 500px;
+    height: 460px;
+   background-color: #fff;
+    z-index: 999;
+}
+.hide{
+    display: none;
+}
+
+.inner-box{
+    display: none;
+}
+.sub-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 244px;
+    height: 460px;
+    background-color: rgba(0,0,0,.1);
+    z-index: 1;
+}
+.menu-items{
+    padding: 0px 24px;
+    height: 64px;
+    line-height: 64px;
+
+}
+.menu-items a{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner{
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    height: 460px;
+}
+.banner-pic1{
+    width: 1200px;
+    height: 460px;
+}
+.banner .banner-pic1{
+    background-image: url("../img/bg1.jpg");
+}
+.banner .banner-pic2{
+    background-image: url("../img/bg2.jpg");
+}
+.banner .banner-pic3{
+    background-image: url("../img/bg3.jpg");
+}
+.button{
+    position: absolute;
+    left: 244px;
+    top: 50%;
+    width: 30px;
+    height: 50px;
+    margin-top: -40px;
+    transform: rotate(180deg);
+    background: url("../img/arrow.png") center center no-repeat;
+}
+#next{
+    transform: rotate(0deg);
+    left: auto;
+    right: 0;
+}
